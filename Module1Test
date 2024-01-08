@@ -1,0 +1,53 @@
+"""
+This is a test created to practice python.
+
+An open three quotation mark followd by a closed quotation mark allow 
+many lines of comments!!!
+
+"""
+
+# this is a sinle line comment
+import math
+abel = 10 # these are the assigned values 
+brett = 24
+
+print("Hello World!")
+print(1000*541685)
+print()
+
+
+print(type("Data Fundamentals"))
+print(type(4))
+print(type(5.2))
+print(type(True))
+print(type([1, 6, 3, 10]))
+print(type(None))
+
+print(98741+5)
+print(156 % 14)
+print(4**16)
+print(True and True)
+print(not True)
+print(24==6*4)
+print(100 >= 50**2)
+
+# examples of calling built-in functions
+print(abs(-40.8))
+print(min(3, 1, 4, 1, 5, 9))
+print(max(3, 1, 4, 1, 5, 9))
+print(len([44,21,34]))  # requires a single argument such as a list or string
+#print(   sum(1, 2, 3)   )
+print(sorted([9,8,8,2,4,5,5,1]))
+#help(list)
+
+# wrap each expression in print() to display the result
+print(  min(3,1,4)  )
+
+print(  round(18.1234567)  )   # try with no argument
+print(  round(18.1234567, 2)  ) # specify the decimal places
+print("Starting up....")
+print()  # omit the optional argument
+#your_name = None
+input("Please enter your name:")
+#input(your_name) # input without a prompt can be confusing
+#print("Hello,", your_name)
